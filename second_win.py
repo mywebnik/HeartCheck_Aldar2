@@ -58,5 +58,5 @@ class TestWin(QWidget):
     def connects(self):
         self.btn_next.clicked.connect(self.next_click)
 app = QApplication([])
-mw = MainWin()
+tw = TestWin()
 app.exec()
