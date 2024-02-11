@@ -24,5 +24,5 @@ class FinalWin(QWidget):
     def connects(self):
         self.btn_next.clicked.connect(self.next_click)
 app = QApplication([])
-mw = MainWin()
+fw = FinalWin()
 app.exec()
